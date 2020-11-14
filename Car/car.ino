@@ -1,7 +1,7 @@
-int E1 = 10;
-int M1 = 12;
-int E2 = 11;
-int M2 = 13;
+int E1 = 10;  //left wheel
+int M1 = 12; //left wheel
+int E2 = 11;  //right wheel
+int M2 = 13;  //right wheel
 void setup()
 {
   pinMode(M1, OUTPUT);
@@ -36,3 +36,4 @@ void loop()
     delay(1000);
   }
 }
+
